@@ -6,25 +6,5 @@
 
 ---
 
-* [1. 语法示例](#1)
-
-  fdsaf
-
-  fdsaf
-
-  fdsaf
-
-  fsadf
-
-  fas
-
-  f
-
-  fsdaf
-
-  fds
-
-  afsa
-
-* [1.1 图片](#1.1)
+**待整理**
 
