@@ -28,4 +28,5 @@ scrapy genspider name domain
 
 * name 为爬虫的名字，唯一
 * domain 为爬取的目标网站
+* 
 
