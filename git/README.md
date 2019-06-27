@@ -16,7 +16,7 @@
 
 ### git 的三种工作区域
 
-![image](/home/kongweikun/Pictures/gitNotes/wordStatus.jpg)
+![image](https://raw.githubusercontent.com/KongWiki/Notes/master/pictures/wordStatus.jpg)
 
 - Git仓库（Git Repository）
 
@@ -38,7 +38,7 @@
 
 ### Git中文件生命周期
 
-![image](/home/kongweikun/Pictures/gitNotes/gitCircle.png)
+![image](https://raw.githubusercontent.com/KongWiki/Notes/master/pictures/gitCircle.png)
 
 
 
