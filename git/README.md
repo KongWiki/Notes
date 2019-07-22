@@ -42,15 +42,27 @@
 
 
 
+## 不常用命令行整理
+
+#### git log --oneline --decorate
+
+查看各个分支当前所指的对象
+
+
+
 
 
 ## 杂记
+
+### git add
 
 ```
 git add 
 ```
 
 可以理解为`添加内容到下一次的提交中`而不是`将一个文件添加到项目中`
+
+### status状态符号意思
 
 ```git
 $ git status -s
@@ -79,3 +91,13 @@ M lib/simplegit.rb
 - `A`  
 
   新添加到暂存区
+
+### 自命名的一些缩写
+
+* git st   ---  git status
+* git ci   ---  git commit 
+* git br  ---  git branch 
+* git co  ---  git checkout
+
+**Git保存的不是文件的差异或者变化，而是一系列不同时刻的文件快照**
+

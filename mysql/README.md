@@ -27,3 +27,34 @@ SELECT column FROM table LIMIT 3,5
 SELECT column1, column2, from table order by column1 DESC;
 ```
 
+### 创建计算字段
+
+* Concat()
+
+  把多个串连接起来形成一个较长的串
+
+### 易忘命令
+
+* RTrim()
+
+  去除右侧多余空格   
+
+* LTrim()
+
+  去除左侧多余空格
+
+* Left
+
+  返回字符串左边字符
+
+* Locate
+
+  找出串的一个子串
+
+* SubString 
+
+  返回子串的字符
+
+* Upper/Lower
+
+  返回大小写
