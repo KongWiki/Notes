@@ -1,5 +1,117 @@
 ## Vue笔记
 
+### 7个属性
+
+- el属性
+
+- - 用来指示vue编译器从什么地方开始解析 vue的语法，可以说是一个占位符。
+
+- data属性
+
+- - 用来组织从view中抽象出来的属性，可以说将视图的数据抽象出来存放在data中。
+
+- template属性
+
+- - 用来设置模板，会替换页面元素，包括占位符。
+
+- methods属性
+
+- - 放置页面中的业务逻辑，js方法一般都放置在methods中
+
+- render属性
+
+- - 创建真正的Virtual Dom
+
+- computed属性
+
+- - 用来计算
+
+- watch属性
+
+- - watch:function(new,old){}
+  - 监听data中数据的变化
+  - 两个参数，一个返回新值，一个返回旧值，
+
+
+
+### 常用方法的基础模板
+
+#### v-if
+
+```html
+<div id="app">
+    <h1 v-if="type=== 'A'">Yes</h1>
+    <h1 v-else>NO</h1>
+</div>
+<script>
+    var app = new Vue({
+        el: "#app",
+        data: {
+            type: "B"
+        }
+    })
+```
+
+
+
+#### v-for
+
+```html
+<div id="app">
+    <li v-for="item in items">
+        {{item.message}}
+    </li>
+</div>
+<script>
+    var app = new Vue({
+        el: "#app",
+        data: {
+            items: [
+                {message: "维坤坤好帅"},
+                {message: "维坤坤好好"},
+                {message: "维坤坤好牛"},
+
+            ]
+        }
+    })
+```
+
+
+
+#### v-on
+
+```html
+<div id="app">
+    <button v-on:click="sayHi">Click Me</button>
+</div>
+<script>
+    var app = new Vue({
+        el: '#app',
+        // 数据
+        data: {
+            message: "维坤坤好帅"
+        },
+        // 事件
+        methods: {
+            sayHi: function () {
+                alert(this.message)
+            }
+        }
+    })
+```
+
+
+
+#### v-bind
+
+```html
+
+```
+
+
+
+### 表单双绑、组件
+
 
 
 ### 生命周期
@@ -9,6 +121,8 @@
 * **created** 实例创建完成后调用，此阶段完成了数据的观测等，但是尚未挂载，$el还不可用
 * **mounted** el挂载到实例之后调用，一般我们的第一个业务逻辑会在这里开始。
 * **beforeDestory** 实例销毁之前调用。主要解绑一些使用addEventListener监听事件等
+
+![](https://raw.githubusercontent.com/KongWiki/cloudImg/master/vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.jpg)
 
 
 
