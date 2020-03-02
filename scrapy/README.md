@@ -8,7 +8,7 @@ scrapy startproject xxxx
 
 ### 项目结构
 
-![image](https://ws1.sinaimg.cn/large/b9f9be27gy1g2o7idwukfj20g507fq3r.jpg)
+![image](https://raw.githubusercontent.com/KongWiki/cloudImg/master/scrapy.jpg)
 
 * items.py  # 定义爬取的结构
 * ｍiddlewares.py # 爬取时的中间件
@@ -28,4 +28,16 @@ scrapy genspider name domain
 
 * name 为爬虫的名字，唯一
 * domain 为爬取的目标网站
+
+## 数据抓取
+
+* css选择器
+
+  ::text 返回对应的内容，无标签。
+
+* xpath选择器
+
+  /text()返回对应的内容，无标签
+
+* 正则选择器
 
